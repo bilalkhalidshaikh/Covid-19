@@ -13,7 +13,6 @@ function Covid19() {
   const { style, ...mouseHandlers } = use3dEffect(ref);
   return (
     <>
-      <br />
       <animated.div
         ref={ref}
         style={{ ...style ,borderRadius:"20%"}}

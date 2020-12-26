@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0;
+  margin: 50px 15px;
 }
 
 .card {
   margin: 0 2% !important;
+  max-width: 380px !important;
   border: none !important;
   background: #2f343f !important;
   box-shadow: inset 0 15px 20px #282c34 !important;
