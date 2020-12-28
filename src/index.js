@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import serviceWorker from "./serviceWorker";
+import * as serviceWorker from "./serviceWorker";
 import App from "./App";
 import "rsuite/dist/styles/rsuite-default.css";
 import 'antd/dist/antd.css';
