@@ -68,7 +68,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {...mouseHandlers}
             >
               <Typography gutterBottom>Infected</Typography>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h5" component="h2" color="#cccccc" style={{color: "#ccc"}}>
                 <CountUp
                   start={0}
                   end={confirmed.value}
@@ -96,7 +96,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             }}
           >
             <Typography gutterBottom>Recovered</Typography>
-            <Typography variant="h5" component="h2">
+            <Typography variant="h5" component="h2" color="#cccccc" style={{color: "#ccc"}}>
               <CountUp
                 start={0}
                 end={recovered.value}
@@ -123,7 +123,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             }}
           >
             <Typography gutterBottom>Deaths</Typography>
-            <Typography variant="h5" component="h2">
+            <Typography variant="h5" component="h2" color="#cccccc" style={{color: "#ccc"}}>
               <CountUp
                 start={0}
                 end={deaths.value}

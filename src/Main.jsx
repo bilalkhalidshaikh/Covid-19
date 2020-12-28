@@ -2,7 +2,7 @@ import React from "react";
 import { Cards, CountryPicker, Chart } from "./components";
 import { fetchData } from "./api";
 import styles from "./App.module.css";
-import BottomNav from "./components/BottomNav";
+import BottomNav from "./components/BottomNav/BottomNav";
 import { Image } from "bumbag";
 import image from "./images/image.png";
 import { use3dEffect } from "use-3d-effect";
